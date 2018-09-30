@@ -1,0 +1,47 @@
+input.pb {
+    width: 90%;
+    border: none;
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    background: #ffffff;
+}
+
+input:focus {
+    outline: none;
+}
+
+.pb-search {
+    width: 100%;
+    background:  #ffffff;
+    border-bottom: 1px solid #efefef;
+}
+
+.pb-result-search {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.pb-result-search div.movie-result {
+    border-bottom: 1px solid #f3f3f3;
+    padding: 15px 0px;
+    color: black;
+}
+
+.pb-result-search div.inline {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.pb-result-search div.inline p {
+    padding: 5px;
+}
+
+@media screen and (min-width:30.063em) {}
+
+@media screen and (min-width:48.063em) {}
